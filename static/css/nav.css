@@ -1,0 +1,117 @@
+.navbar {
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.search {
+    position: relative;
+    top: 9px;
+    width: 600px;
+    left: 17px;
+    margin-right: 10px;
+}
+
+.search-box {
+    width: 90%;
+    background-color: white;
+    border-radius: 3px;
+    border-style: none;
+    color: black !important;
+    padding: 0 15px;
+}
+
+.search-box:focus {
+    outline: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-color: white;
+    margin-left: 3px;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: white;
+}
+
+.btn:hover .symbol {
+    fill: rgb(13, 110, 253);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}      
+
+.navbar-nav .nav-item {
+    margin-left: 5px;
+    padding: 0 15px;
+}
+
+.current {
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.start {
+    margin-left: 45px;
+}
+
+.emo {
+    position: relative;
+    bottom: 0.6px;
+    left: 3.5px;
+}
+
+.cart {
+    position: relative;
+    bottom: 0.92px;
+    left: 3px;
+}
+
+.profile {
+    position: relative;
+    bottom: 0.88px;
+    left: 4px;
+}
+
+.card {
+    width: 18rem;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-item {
+        margin-left: 0; 
+        margin-bottom: 5px; 
+    }
+    .search {
+        position: relative;
+        top: 9px;
+        width: 600px;
+        left: 0px;
+        margin-right: 0px;
+    }
+    .start {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .navbar-nav .second {
+        margin-left: 12px;
+    }
+}
